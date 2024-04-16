@@ -14,7 +14,7 @@ export default function Home() {
                       <p className={`${gentiumBookPlus.className} text-5xl lg:text-8xl text-font italic py-1`} > Hello, <br></br> My name is Diane </p>
                   </div>
                   <div className={`${poppins.className} flex font-body text-xl lg:text-3xl my-5 text-font`}>
-                    <p>I'm a Product Designer & Developer based in Austin. I specialize in Responsive Web Design and Visual Development. Currently studying UX/UI at Design Lab.</p>
+                    <p>{`I'm a Product Designer & Developer based in Austin. I specialize in Responsive Web Design and Visual Development. Currently studying UX/UI at Design Lab.`}</p>
                   </div>
                   <div className='my-5'>
                       <a href='/contact' className={`${poppins.className} bg-button hover:bg-white/20 hover:border-2 hover:border-b-white/20 text-white p-5 rounded-lg lg:text-lg my-5`}>Contact Me</a>
