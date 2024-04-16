@@ -7,8 +7,8 @@ export default function Work(){
             <div className='flex max-h-full lg:h-svh w-full p-5 lg:p-24 flex-col'>
                 <NavigationBar/>
                 <h1 className={` ${abrilFatface.className} flex text-4xl lg:text-6xl self-center pt-20 font-display text-font`}>Case Studies</h1>
-                <div className={` ${poppins.className} flex bg-white/[0.05] my-10 lg:my-20 rounded-lg lg:h-dvh justify-center flex-col lg:flex-row h-full text-white`}>
-                    <div className='flex m-3 lg:m-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
+                <div className={` ${poppins.className} flex bg-white/[0.05] my-10 lg:my-20 rounded-lg lg:h-dvh justify-center flex-col lg:flex-row h-full text-white w-full`}>
+                    <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
                         <div className='flex relative lg:h-1/2 lg:m-5 h-52 mx-2 lg:mx-0'>
                             <Image src='/KetoDiet.png' alt='KetoDiet_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                         </div>
@@ -26,7 +26,7 @@ export default function Work(){
                         </div>
                     </div>
 
-                    <div className='flex m-3 lg:m-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
+                    <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
                         <div className='flex relative lg:h-1/2 lg:m-5 h-52 mx-2 lg:mx-0'>
                             <Image src='/EverHomeCare.png' alt='EHC_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                         </div>
@@ -45,7 +45,7 @@ export default function Work(){
                         </div>
                     </div>
 
-                    <div className='flex m-3 lg:m-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
+                    <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
                         <div className='flex relative lg:h-1/2 lg:m-5 h-52 mx-2 lg:mx-0'>
                             <Image src='/Artfolio.png' alt='Artfolio_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                         </div>

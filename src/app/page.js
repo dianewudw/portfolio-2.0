@@ -25,8 +25,8 @@ export default function Home() {
               </div>
           </div>
 
-          <div className={`${poppins.className} flex bg-white/[0.05] my-10 lg:my-20 rounded-lg lg:h-auto w-justify-center flex-col lg:flex-row max-h-full`}>
-              <div className='flex m-3 lg:m-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
+          <div className={`${poppins.className} flex bg-white/[0.05] my-10 lg:my-20 rounded-lg lg:h-auto w-justify-center flex-col lg:flex-row max-h-full lg:w-full`}>
+              <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col'>
                   <div className='flex relative lg:h-48  lg:m-5 h-52'>
                       <Image src='/KetoDiet.png' alt='KetoDiet_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                   </div>
@@ -43,8 +43,8 @@ export default function Home() {
                       </div>
                   </div>
               </div>
-              <div className='flex m-3 lg:m-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
-                  <div className='flex relative lg:h-48  lg:m-5 h-52'>
+              <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
+                  <div className='flex relative lg:h-48  lg:my-5 h-52'>
                       <Image src='/EverHomeCare.png' alt='EHC_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                   </div>
                   <div className={`${poppins.className} flex p-5 flex-col justify-between items-center lg:items-start text-white`}>
@@ -61,8 +61,8 @@ export default function Home() {
                   </div>
               </div>
 
-              <div className='flex m-3 lg:m-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full text-white'>
-                  <div className='flex relative lg:h-48  lg:m-5 h-52'>
+              <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full text-white'>
+                  <div className='flex relative lg:h-48  lg:my-5 h-52'>
                       <Image src='/Artfolio.png' alt='Artfolio_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                   </div>
                   <div className='flex p-5 flex-col justify-between items-center lg:items-start'>
