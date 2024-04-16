@@ -15,13 +15,13 @@ export default function About(){
                     </div>
                     <div className={` ${poppins.className} flex flex-col min-h-fit md:max-h-full md:w-1/2 md:justify-items-center text-center lg:text-start`}>
                         <p class='flex pt-4 text-xl md:text-2xl lg:p-10'>
-                            Diane is a product designer and developer from Austin, Texas. Her interest in building cool stuff comes from a love of aesthetics without sacrificing function. This led her to begin a career in developing products, from developing haircare products for cosmetic giants to building microservices for unicorn start-ups.
+                            {`Diane is a product designer and developer from Austin, Texas. Her interest in building cool stuff comes from a love of aesthetics without sacrificing function. This led her to begin a career in developing products, from developing haircare products for cosmetic giants to building microservices for unicorn start-ups.`}
                         </p>
                         <p class='flex pt-4 text-xl md:text-2xl lg:p-10'>
-                            Currently, she's a consultant for a biotech startup company in the Bay Area. Providing expertise in product design, development and branding.
+                            {`Currently, she's a consultant for a biotech startup company in the Bay Area. Providing expertise in product design, development and branding.`}
                         </p>
                         <p class='flex pt-4 text-xl md:text-2xl lg:p-10'>
-                            Forever a thinker and tinkerer, she's always down to make things that make the world a better place.
+                            {`Forever a thinker and tinkerer, she's always down to make things that make the world a better place.`}
                         </p>
                     </div>
                 </div>
