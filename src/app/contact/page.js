@@ -1,8 +1,9 @@
 'use client'
-import NavigationBar from "@/app/NavigationBar";
 import Image from 'next/image'
 import {FormEvent, useState} from 'react'
 import {poppins} from "@/app/fonts";
+import NavigationBar from  "@/app/navigationBar/page";
+
 export default function Contact(){
     const [email, setEmail] = useState({
         title:'',
@@ -10,11 +11,6 @@ export default function Contact(){
         message: '',
     })
 
-    // const handleTitle = (e) => {
-    //     e.preventDefault()
-    //     const title = e.target
-    //     const formData = new FormData(form)
-    // }
     return(
         <>
             <div className='flex flex-col h-full w-full p-5 lg:p-24 text-white'>

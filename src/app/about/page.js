@@ -1,5 +1,5 @@
 'use client'
-import NavigationBar from "@/app/navigationBar";
+import NavigationBar from  "@/app/navigationBar/page";
 import Image from 'next/image'
 import { abrilFatface, poppins } from "@/app/fonts";
 

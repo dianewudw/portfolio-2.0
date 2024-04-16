@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NavigationBar from "@/app/navigationBar";
+import NavigationBar from "@/app/navigationBar/page";
 import {gentiumBookPlus} from "@/app/fonts";
 import {poppins} from "@/app/fonts";
 

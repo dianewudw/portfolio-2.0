@@ -1,4 +1,4 @@
-import NavigationBar from "@/app/navigationBar";
+import NavigationBar from "@/app/navigationBar/page";
 import Image from 'next/image'
 export default function Artfolio(){
     return(
@@ -6,7 +6,7 @@ export default function Artfolio(){
             <div className='flex lg:px-24 lg:pt-24 flex-col'>
                 <NavigationBar/>
             </div>
-            <div className='flex lg:px-24 flex-col overflow-scroll'>
+            <div className='flex lg:px-24 flex-col overflow-scroll lg:pt-10'>
                 <Image src='/Artfolio_Intro.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/Artfolio_Research.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/Artfolio_ResearchSynthesis.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>

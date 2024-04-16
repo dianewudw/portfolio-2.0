@@ -3,7 +3,7 @@ import Image from "next/image";
 import localFont from "next/font/local";
 
 import {poppins} from "@/app/fonts";
-export default function MobileDrawer({isOpen, MobileMenuButton}){
+export default function MobileNavigatioin({isOpen, MobileMenuButton}){
     return(
         <div
             className={`fixed flex flex-col justify-center items-center z-10 top-0 right-0 h-2/5 w-full bg-[#CDCACA]/10 backdrop-blur-xl text-font transition-transform duration-300 transform ${

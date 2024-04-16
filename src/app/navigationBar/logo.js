@@ -1,12 +1,12 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import { shrikhand } from './fonts'
+import { shrikhand } from '../fonts'
 import localFont from 'next/font/local'
 import { useState } from 'react'
 
 //👇 Configure our local font object
-const saunde = localFont({ src: './font/Saunde.otf' })
+const saunde = localFont({ src: '../font/Saunde.otf' })
 export default function Logo({ MobileMenuButton}){
 
     return(

@@ -1,4 +1,4 @@
-import NavigationBar from "@/app/navigationBar";
+import NavigationBar from "@/app/navigationBar/page";
 import Image from 'next/image'
 export default function EverHomeCare(){
     return(

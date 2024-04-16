@@ -1,4 +1,4 @@
-import NavigationBar from "@/app/navigationBar";
+import NavigationBar from "@/app/navigationBar/page";
 import Image from "next/image";
 
 export default function KetoDiet(){
@@ -7,7 +7,7 @@ export default function KetoDiet(){
             <div className='flex lg:px-24 lg:pt-24 flex-col'>
                 <NavigationBar/>
             </div>
-            <div className='flex lg:px-24 flex-col overflow-scroll'>
+            <div className='flex lg:px-24 flex-col overflow-scroll lg:pt-10'>
                 <Image src='/KetoDiet_Intro.png' alt='KetoDiet_Intro' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/KetoDiet_MarketResearch.png' alt='KetoDiet_MarketResearch' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/KetoDiet_ResearchSynthesis.png' alt='KetoDiet_ResearchSynthesis' height={1080} width={1920} className='object-contain flex self-center'/>
