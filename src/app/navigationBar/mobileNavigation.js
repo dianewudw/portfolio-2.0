@@ -16,16 +16,16 @@ export default function MobileNavigatioin({isOpen, MobileMenuButton}){
                     <Image src='close.svg' alt='hamburger_icon' width={48} height={48} />
                 </button>
                 <ul className={`${poppins.className} flex flex-col justify-center items-center space-y-4 w-full text-white`}>
-                    <Link href="/" passHref className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-diane text-font'>
+                    <Link href="/" passHref className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-button text-font'>
                         Home
                     </Link>
-                    <Link href="/about" passHref className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-diane text-font'>
+                    <Link href="/about" passHref className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-button text-font'>
                         About
                     </Link>
-                    <a href="/Resume.pdf" className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-diane' download>
+                    <a href="/Resume.pdf" className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-button' download>
                         Resume
                     </a>
-                    <Link href="/work" passHref className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-diane'>
+                    <Link href="/work" passHref className='md:flex content-center no-underline margin mx-8 text-2xl hover:text-button'>
                         Work
                     </Link>
                 </ul>

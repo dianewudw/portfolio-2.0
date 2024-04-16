@@ -8,7 +8,7 @@ export default function About(){
         <>
             <div class='flex flex-col h-svh w-full p-5 lg:p-24 text-white '>
                 <NavigationBar/>
-                <h1 className={`${abrilFatface.className} flex self-center font-display lg:my-20 text-4xl lg:text-6xl`}>About Me</h1>
+                <h1 className={`${abrilFatface.className} flex self-center font-display lg:my-20 mt-10 mb-5 text-4xl lg:text-6xl`}>About Me</h1>
                 <div className='flex flex-col md:flex-row justify-center md:items-center w-full lg:h-4/5 h-screen rounded-lg bg-white/5 py-10'>
                     <div className='flex relative w-full lg:w-1/2 lg:self-center justify-center align-center overflow-hidden h-full' >
                         <Image src='/memoji.png' alt='Prof Pic' fill={true} class='flex object-contain rounded-full absolute'/>
@@ -26,7 +26,7 @@ export default function About(){
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row justify-end my-2 lg:h-1/6 mt-5 px-5 lg:px-24 pb:5 lg:pb-10'>
+            <div className='flex flex-row justify-end my-2 lg:h-1/6 mt-5 mb-5 px-5 lg:px-24 pb:5 lg:pb-10'>
                 <div className='flex justify-center self-center px-5'>
                     <a href='https://linkedin.com/in/dianewudw' >
                         <Image src='/linkedin_dark_mode.svg' alt='linkedin icon' className='object-contains' height={40} width={40}/>
