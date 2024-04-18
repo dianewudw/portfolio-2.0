@@ -50,7 +50,7 @@ export default function Work(){
                             <Image src='/Artfolio.png' alt='Artfolio_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                         </div>
                         <div className={`${poppins.className} text-white flex p-5 flex-col justify-between items-center lg:items-start w-full`}>
-                            <p className='flex font-header py-2 font-bold text-2xl w-full  justify-center'>Artfolio</p>
+                            <p className='flex py-2 font-bold text-2xl w-full justify-center'>Artfolio</p>
                             <p className='flex py-2 justify-center w-full'>UX/UI Design, Branding</p>
                             <div className='flex items-center justify-center py-4 lg:w-full lg:flex-row flex-col'>
                                 <a href='https://www.figma.com/proto/ExbARABarm9eYIrwMjs64K/Digital-Wallet?page-id=665%3A6522&type=design&node-id=688-53177&viewport=198%2C435%2C0.03&t=xbUtB71lwZWCn4JQ-1&scaling=scale-down&starting-point-node-id=683%3A40469&show-proto-sidebar=1' className='flex bg-button px-10 py-3 rounded-full  mx-2 my-3 lg:my-0' >
