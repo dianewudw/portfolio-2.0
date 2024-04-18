@@ -33,7 +33,7 @@ export default function Contact(){
                                 Write your message:
                             </label>
                             <textarea name='postContent' placeholder='Message...' className='bg-white/10 rounded-lg stroke-gray p-3 w-full my-5 h-80' onChange={e => { setEmail({message: e.target.value})}}/>
-                            <a href='/submit' className='bg-button/80 py-2 rounded-full w-full mt-3 text-center my-5 hover:bg-white/20 hover:border-2 hover:border-b-white/20'>Send</a>
+                            <a href='/submit' className='bg-button/80 py-2 rounded-full w-full mt-3 text-center my-5 hover:bg-white/20 hover:border hover:border-white/20'>Send</a>
                         </form>
                     </div>
                 </div>

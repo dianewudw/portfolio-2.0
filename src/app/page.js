@@ -17,7 +17,7 @@ export default function Home() {
                     <p>{`I'm a Product Designer & Developer based in Austin. I specialize in Responsive Web Design and Visual Development. Currently studying UX/UI at Design Lab.`}</p>
                   </div>
                   <div className='my-5'>
-                      <a href='/contact' className={`${poppins.className} bg-button hover:bg-white/20 hover:border-2 hover:border-b-white/20 text-white p-5 rounded-lg lg:text-lg my-5`}>Contact Me</a>
+                      <a href='/contact' className={`${poppins.className} bg-button hover:bg-white/20 hover:border hover:border-white/20 text-white p-5 rounded-lg lg:text-lg my-5`}>Contact Me</a>
                   </div>
               </div>
               <div className={`flex w-full h-96 lg:h-full lg:w-1/4 content-end relative flex-auto lg:self-end mb-10 lg:mb-0 rounded-full`}>
@@ -34,10 +34,10 @@ export default function Home() {
                       <p className='flex py-2 font-bold text-2xl w-full justify-center'>KetoDiet</p>
                       <p className='flex  py-2 w-full justify-center'>UX/UI Design</p>
                       <div className='flex items-center justify-center py-2 lg:w-full lg:flex-row flex-col'>
-                          <a href='https://www.figma.com/proto/EJBe9X8t7cgG07k7AQ3D0v/KetoDiet?type=design&node-id=519-3721&t=ZEku7QSHNW2jCOt5-0&scaling=min-zoom&page-id=470%3A2861&starting-point-node-id=519%3A3721' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0' >
+                          <a href='https://www.figma.com/proto/EJBe9X8t7cgG07k7AQ3D0v/KetoDiet?type=design&node-id=519-3721&t=ZEku7QSHNW2jCOt5-0&scaling=min-zoom&page-id=470%3A2861&starting-point-node-id=519%3A3721' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-white/20' >
                               Prototype
                           </a>
-                          <a href='/work/ketodiet' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 my-3 lg:my-0 '>
+                          <a href='/work/ketodiet' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-b-white/20'>
                               Case Study
                           </a>
                       </div>
@@ -51,10 +51,10 @@ export default function Home() {
                       <p className='flex py-2 font-bold text-2xl w-full justify-center'>Ever Home Care</p>
                       <p className='flex py-2 w-full justify-center'>UX/UI Design, Branding, Software Development</p>
                       <div className='flex items-center justify-center py-3 lg:w-full lg:flex-row flex-col'>
-                          <a href='https://www.figma.com/proto/E0i1yaM0HAkUNuX0qzhkSD/Ever-Home-Care?type=design&node-id=425-657&t=rHXlX4a8g4lBPJkC-0&scaling=min-zoom&page-id=359%3A244&starting-point-node-id=417%3A2641&show-proto-sidebar=1' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0' >
+                          <a href='https://www.figma.com/proto/E0i1yaM0HAkUNuX0qzhkSD/Ever-Home-Care?type=design&node-id=425-657&t=rHXlX4a8g4lBPJkC-0&scaling=min-zoom&page-id=359%3A244&starting-point-node-id=417%3A2641&show-proto-sidebar=1' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-white/20' >
                               Prototype
                           </a>
-                          <a href='/work/everhomecare' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 '>
+                          <a href='/work/everhomecare' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 hover:bg-white/20 hover:border hover:border-white/20'>
                               Case Study
                           </a>
                       </div>
@@ -69,10 +69,10 @@ export default function Home() {
                       <p className='flex py-2 font-bold text-2xl w-full justify-center'>Artfolio</p>
                       <p className='flex py-2 w-full justify-center'>UX/UI Design, Branding</p>
                       <div className='flex items-center justify-center py-4 lg:w-full lg:flex-row flex-col'>
-                          <a href='https://www.figma.com/proto/ExbARABarm9eYIrwMjs64K/Digital-Wallet?page-id=665%3A6522&type=design&node-id=688-53177&viewport=198%2C435%2C0.03&t=xbUtB71lwZWCn4JQ-1&scaling=scale-down&starting-point-node-id=683%3A40469&show-proto-sidebar=1' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0' >
+                          <a href='https://www.figma.com/proto/ExbARABarm9eYIrwMjs64K/Digital-Wallet?page-id=665%3A6522&type=design&node-id=688-53177&viewport=198%2C435%2C0.03&t=xbUtB71lwZWCn4JQ-1&scaling=scale-down&starting-point-node-id=683%3A40469&show-proto-sidebar=1' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-white/20' >
                               Prototype
                           </a>
-                          <a href='/work/artfolio' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 my-3 lg:my-0 '>
+                          <a href='/work/artfolio' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-white/20'>
                               Case Study
                           </a>
                       </div>
