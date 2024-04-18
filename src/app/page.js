@@ -2,13 +2,12 @@ import Image from "next/image";
 import NavigationBar from "@/app/navigationBar/page";
 import {gentiumBookPlus} from "@/app/fonts";
 import {poppins} from "@/app/fonts";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen p-5 lg:px-24 lg:pt-24">
       <div className="z-10 flex-col min-w-full min-h-full justify-between font-mono text-sm lg:flex">
           <NavigationBar/>
-          <div className='flex justify-between max-h-svh flex-col-reverse lg:flex-row lg:mt-50 mt-20 rounded-lg bg-white/[0.05] py-5 lg:py-0'>
+          <div className={`flex justify-between max-h-svh flex-col-reverse lg:flex-row lg:mt-50 mt-20 rounded-lg bg-white/[0.05] py-5 lg:py-0`}>
               <div className='flex lg:w-1/2 flex-col lg:mb-40 lg:mt-40 mx-3 text-center lg:text-start lg:ml-20'>
                   <div>
                       <p className={`${gentiumBookPlus.className} text-5xl lg:text-8xl text-font italic py-1`} > Hello, <br></br> My name is Diane </p>
@@ -21,13 +20,13 @@ export default function Home() {
                   </div>
               </div>
               <div className={`flex w-full h-96 lg:h-full lg:w-1/4 content-end relative flex-auto lg:self-end mb-10 lg:mb-0 rounded-full`}>
-                  <Image src='/prof_pic_1.png' alt='profile pic' fill={true} className='flex absolute object-cover' />
+                  <Image src='/prof_pic_1.png' alt='profile pic' fill={true} className='flex absolute object-cover lg:rounded-br-lg' />
               </div>
           </div>
 
           <div className={`${poppins.className} flex bg-white/[0.05] my-10 lg:my-20 rounded-lg lg:h-auto w-justify-center flex-col lg:flex-row max-h-full lg:w-full`}>
-              <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col'>
-                  <div className='flex relative lg:h-48  lg:m-5 h-52'>
+              <div className='flex m-3 lg:ml-6 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col'>
+                  <div className='flex relative lg:h-48 lg:m-5 h-52'>
                       <Image src='/KetoDiet.png' alt='KetoDiet_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                   </div>
                   <div className='flex p-5 flex-col justify-between items-center lg:items-start text-white'>
@@ -61,7 +60,7 @@ export default function Home() {
                   </div>
               </div>
 
-              <div className='flex m-3 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full text-white'>
+              <div className='flex m-3 lg:mr-6 lg:my-10 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full text-white'>
                   <div className='flex relative lg:h-48  lg:my-5 h-52'>
                       <Image src='/Artfolio.png' alt='Artfolio_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                   </div>
