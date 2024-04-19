@@ -7,7 +7,7 @@ export default function Work(){
             <div className='flex min-h-full lg:h-svh w-full p-5 lg:px-24 lg:pt-24 flex-col overflow-auto'>
                 <NavigationBar/>
                 <h1 className={` ${abrilFatface.className} flex text-4xl lg:text-6xl self-center lg:pt-20 mt-10 mb-5 font-display text-font`}>Case Studies</h1>
-                <div className={` ${poppins.className} flex text-sm bg-white/[0.05] mb-10 lg:my-20 rounded-lg lg:h-auto justify-center flex-col md:flex-row h-full text-white w-full`}>
+                <div className={` ${poppins.className} flex text-sm bg-white/[0.05] mb-10 lg:my-20 rounded-lg lg:h-auto justify-center flex-col lg:flex-row h-full text-white w-full`}>
                     <div className='flex m-3 lg:ml-6 lg:my-6 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
                         <div className='flex relative lg:m-5 h-52 mx-2 lg:mx-0'>
                             <Image src='/KetoDiet.png' alt='KetoDiet_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
@@ -27,7 +27,7 @@ export default function Work(){
                     </div>
 
                     <div className='flex m-3 lg:my-6 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
-                        <div className='flex relative lg:h-1/2 lg:m-5 h-52 mx-2 lg:mx-0'>
+                        <div className='flex relative lg:m-5 h-52 mx-2 lg:mx-0'>
                             <Image src='/EverHomeCare.png' alt='EHC_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                         </div>
                         <div className={`${poppins.className} text-white flex p-5 flex-col justify-between items-center lg:items-start w-full`}>
@@ -46,7 +46,7 @@ export default function Work(){
                     </div>
 
                     <div className='flex m-3 lg:my-6 lg:mr-6 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full'>
-                        <div className='flex relative lg:h-1/2 lg:m-5 h-52 mx-2 lg:mx-0'>
+                        <div className='flex relative lg:m-5 h-52 mx-2 lg:mx-0'>
                             <Image src='/Artfolio.png' alt='Artfolio_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                         </div>
                         <div className={`${poppins.className} text-white flex p-5 flex-col justify-between items-center lg:items-start w-full`}>
