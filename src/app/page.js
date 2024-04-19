@@ -16,7 +16,7 @@ export default function Home() {
                     <p>{`I'm a Product Designer & Developer based in Austin. I specialize in Responsive Web Design and Visual Development. Currently studying UX/UI at Design Lab.`}</p>
                   </div>
                   <div className='my-5'>
-                      <a href='/contact' className={`${poppins.className} bg-button hover:bg-white/20 hover:border hover:border-white/20 text-white p-5 rounded-lg lg:text-lg my-5`}>Contact Me</a>
+                      <a href='/contact' className={`${poppins.className} bg-button hover:bg-white/20 hover:border hover:border-white/20 text-white p-5 rounded-full lg:text-lg my-5`}>Contact Me</a>
                   </div>
               </div>
               <div className={`flex w-full h-96 lg:h-full lg:w-1/4 content-end relative flex-auto lg:self-end mb-10 lg:mb-0 rounded-full`}>
