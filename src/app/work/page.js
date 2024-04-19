@@ -19,7 +19,7 @@ export default function Work(){
                                 <a href='https://www.figma.com/proto/EJBe9X8t7cgG07k7AQ3D0v/KetoDiet?type=design&node-id=519-3721&t=ZEku7QSHNW2jCOt5-0&scaling=min-zoom&page-id=470%3A2861&starting-point-node-id=519%3A3721' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0' >
                                     Prototype
                                 </a>
-                                <a href='/work/ketodiet' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 my-3 lg:my-0'>
+                                <a href='/work/ketodiet' className='flex text-white bg-button px-8 py-3 rounded-full mx-2'>
                                     Case Study
                                 </a>
                             </div>

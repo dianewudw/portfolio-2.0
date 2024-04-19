@@ -36,7 +36,7 @@ export default function Home() {
                           <a href='https://www.figma.com/proto/EJBe9X8t7cgG07k7AQ3D0v/KetoDiet?type=design&node-id=519-3721&t=ZEku7QSHNW2jCOt5-0&scaling=min-zoom&page-id=470%3A2861&starting-point-node-id=519%3A3721' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-white/20' >
                               Prototype
                           </a>
-                          <a href='/work/ketodiet' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-b-white/20'>
+                          <a href='/work/ketodiet' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 hover:bg-white/20 hover:border hover:border-b-white/20'>
                               Case Study
                           </a>
                       </div>
@@ -71,7 +71,7 @@ export default function Home() {
                           <a href='https://www.figma.com/proto/ExbARABarm9eYIrwMjs64K/Digital-Wallet?page-id=665%3A6522&type=design&node-id=688-53177&viewport=198%2C435%2C0.03&t=xbUtB71lwZWCn4JQ-1&scaling=scale-down&starting-point-node-id=683%3A40469&show-proto-sidebar=1' className='flex bg-button px-10 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-white/20' >
                               Prototype
                           </a>
-                          <a href='/work/artfolio' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 my-3 lg:my-0 hover:bg-white/20 hover:border hover:border-white/20'>
+                          <a href='/work/artfolio' className='flex text-white bg-button px-8 py-3 rounded-full mx-2 hover:bg-white/20 hover:border hover:border-white/20'>
                               Case Study
                           </a>
                       </div>
