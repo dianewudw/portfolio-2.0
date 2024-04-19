@@ -61,7 +61,7 @@ export default function Home() {
               </div>
 
               <div className='flex m-3 lg:mr-6 lg:my-6 rounded-lg bg-white/10 border-2 border-white/10 lg:w-1/3 flex-col max-w-full text-white'>
-                  <div className='flex relative lg:h-48  lg:my-5 h-52'>
+                  <div className='flex relative lg:h-48 lg:my-5 h-52'>
                       <Image src='/Artfolio.png' alt='Artfolio_Portfolio_Pic' fill={true} className='flex absolute object-contain'/>
                   </div>
                   <div className='flex p-5 flex-col justify-between items-center lg:items-start'>
