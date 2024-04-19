@@ -26,7 +26,7 @@ export default function About(){
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row justify-end my-2 lg:h-1/6 mt-5 mb-5 px-5 lg:px-24 pb:5 lg:pb-10'>
+            <div className='flex flex-row justify-end my-2 lg:h-1/6 mt-5 mb-5 px-5 lg:px-24 pb:5'>
                 <div className='flex justify-center self-center px-5'>
                     <a href='https://linkedin.com/in/dianewudw' >
                         <Image src='/linkedin_dark_mode.svg' alt='linkedin icon' className='object-contains' height={40} width={40}/>
