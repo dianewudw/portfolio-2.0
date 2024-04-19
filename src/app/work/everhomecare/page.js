@@ -10,7 +10,7 @@ export default function EverHomeCare(){
                 <Image src='/EHC_Introduction.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/EHC_Research.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/EHC_BusinesGoals.png' alt='EHC_BusinessGoals' height={1080} width={1920} className='object-contain flex self-center'/>
-                <Image src='/EHC_Branding.png' alt='full_capstone_artfolio' height={1080} width={1940}className='object-contain flex self-center'/>
+                <Image src='/EHC_branding.png' alt='full_capstone_artfolio' height={1080} width={1940}className='object-contain flex self-center'/>
                 <Image src='/EHC_Wireframes.png' alt='full_capstone_artfolio' height={1080} width={1940} className='object-contain flex self-center'/>
             </div>
             <div className='flex flex-row justify-end my-2 lg:h-1/6 lg:px-24 lg:py-10'>
