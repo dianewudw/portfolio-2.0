@@ -21,7 +21,7 @@ export default function About(){
                             {`Currently, she's a consultant for a biotech startup company in the Bay Area providing expertise in product design, development and branding.`}
                         </p>
                         <p class='flex pt-2 px-4 lg:p-5'>
-                            {`Forever a thinker and tinkerer, she loves to dive deep into the development process to build things that are truly make the world a better place.`}
+                            {`Forever a thinker and tinkerer, she loves to dive deep into the development process to build things that truly make the world a better place.`}
                         </p>
                     </div>
                 </div>
