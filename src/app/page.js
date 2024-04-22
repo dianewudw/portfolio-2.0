@@ -10,7 +10,10 @@ export default function Home() {
           <div className={`flex justify-between max-h-svh flex-col-reverse lg:flex-row lg:mt-50 mt-20 rounded-lg bg-white/[0.05] py-5 lg:py-0`}>
               <div className='flex lg:w-1/2 flex-col lg:mb-40 lg:mt-40 mx-3 text-center lg:text-start lg:ml-20'>
                   <div>
-                      <p className={`${gentiumBookPlus.className} text-5xl lg:text-8xl text-font italic py-1`} > Hello, <br></br> My name is Diane </p>
+                      <p className={`${gentiumBookPlus.className} text-5xl lg:text-8xl text-font italic`} > Hello, <br></br> My name is Diane </p>
+                      <span className='flex justify-end w-full lg:pr-52 lg:h-1/5 lg:mb-8'>
+                        <Image src='./squiggle.svg' alt='underline' className='absolute' width={200} height={100} />
+                      </span>
                   </div>
                   <div className={`${poppins.className} flex font-body text-xl lg:text-3xl my-5 text-font`}>
                     <p>{`I'm a Product Designer & Developer based in Austin. I specialize in Responsive Web Design and Visual Development. Currently studying UX/UI at Design Lab.`}</p>

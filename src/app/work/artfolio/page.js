@@ -9,7 +9,7 @@ export default function Artfolio(){
             <div className='flex lg:px-24 flex-col overflow-scroll lg:pt-10'>
                 <Image src='/Artfolio_Intro.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/Artfolio_Research.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
-                <Image src='/Artfolio_ResearchSynthesis.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
+                <Image src='/Artfolio_Research_Synthesis.png' alt='Research_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/Artfolio_Branding.png' alt='full_capstone_artfolio' height={1080} width={1940}className='object-contain flex self-center'/>
                 <Image src='/Artfolio_Wireframes.png' alt='full_capstone_artfolio' height={1080} width={1940} className='object-contain flex self-center'/>
                 <Image src='/Artfolio_FinalIteration.png' alt='full_capstone_artfolio' height={1080} width={1940} className='object-contain flex self-center'/>
