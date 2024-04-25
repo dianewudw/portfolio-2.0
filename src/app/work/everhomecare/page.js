@@ -11,7 +11,12 @@ export default function EverHomeCare(){
                 <Image src='/EHC_Research.png' alt='full_capstone_artfolio' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/EHC_BusinesGoals.png' alt='EHC_BusinessGoals' height={1080} width={1920} className='object-contain flex self-center'/>
                 <Image src='/EHC_branding.png' alt='full_capstone_artfolio' height={1080} width={1940}className='object-contain flex self-center'/>
-                <Image src='/EHC_Wireframes.png' alt='Wireframes_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
+                <Image src='/EHC_Low_Fi_Wireframes.png' alt='Wireframes_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
+                <Image src='/EHC_Mid_Fi_Wireframes.png' alt='Wireframes_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
+                <Image src='/EHC_Style_Tile.png' alt='Wireframes_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
+                <Image src='/EHC_High_Fidelity_Wireframes.png' alt='Wireframes_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
+                <Image src='/EHC_Usability_Testing.png' alt='Wireframes_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
+                <Image src='/EHC_Iterations.png' alt='Wireframes_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
                 <Image src='/EHC_Final_Designs.png' alt='Final_Designs_EHC' height={1080} width={1940} className='object-contain flex self-center'/>
 
             </div>
